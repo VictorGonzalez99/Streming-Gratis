@@ -1,0 +1,16 @@
+.contenedor header {
+    background: url('https://www.themoviedb.org/t/p/original/d0LfrKXMogbJujV6Mc7L9cUssC8.jpg');
+    height: 600px;
+    background-position: top center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor header {
+        background: url('https://www.themoviedb.org/t/p/original/d0LfrKXMogbJujV6Mc7L9cUssC8.jpg');
+        background-size: cover;
+        background-position: top center;
+        height: 450px;
+        border-radius: 0px 0px 10px 10px;
+    }
+}

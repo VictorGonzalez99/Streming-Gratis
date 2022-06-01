@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+/* ---- ----- ----- body ----- ----- ----- */
+
+
+/* ---- ----- ----- body ----- ----- ----- */
+
+body {
+    background: rgba(0, 0, 0, 0.979);
+}
+
+
+/* ---- ----- ----- Contenedor ----- ----- ----- */
+
+.contenedor header .titulo {
+    color: white;
+    width: 500px;
+    padding-top: 300px;
+    margin-left: 60px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contenedor header .titulo a {
+    background: rgba(211, 26, 26, 0.726);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: #f3f3f3;
+}
+
+.contenedor header .titulo a:hover {
+    background: white;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.contenedor header .titulo a img {
+    width: 20px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+
+/* ---- ----- ----- REPRODUCCION DOCTOR STRANGER ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION DOCTOR STRANGER ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION DOCTOR STRANGER ----- ----- ----- */
+
+.Fondo_Doctor_Strange {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/fBStjn6y58rZ4QMyMGkodFdEIJa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Doctor_Strange:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Doctor_Strange {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Doctor_Strange {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Doctor_Strange {
+    margin: 5%;
+}
+
+.Explicacion_Doctor_Strange {
+    margin: auto 10% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- peliculas----- ----- ----- */
+
+
+/* ---- ----- ----- peliculas----- ----- ----- */
+
+
+/* ---- ----- ----- peliculas----- ----- ----- */
+
+.fondo {
+    background-color: rgb(27, 2, 85);
+}
+
+.name-infantiles {
+    padding: 0px 35px;
+    font-family: 'Koulen', cursive;
+    color: #fff;
+}
+
+.contenedor {
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin: 5px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(19, 21, 22);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #f3f3f3;
+}
+
+.card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+/* ---- ----- ----- REPRODUCCION RED ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION RED ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION RED ----- ----- ----- */
+
+.Fondo_Red {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/mdviAeQNEAOSddeViLMPh3Ihiqb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Red:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Red {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Red {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Red {
+    margin: 5%;
+}
+
+.Explicacion_Red {
+    margin: auto 20% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION Clifford ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Clifford ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Clifford ----- ----- ----- */
+
+.Fondo_Clifford {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/w1B1oicpgsqmAL30CF8fPIgadkm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Clifford:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Clifford {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Clifford {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Clifford {
+    margin: 5%;
+}
+
+.Explicacion_Clifford {
+    margin: auto 20% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION Hotel-transilvania ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Hotel-transilvania ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Hotel-transilvania ----- ----- ----- */
+
+.Fondo_Hotel-transilvania {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/86Bxkqz9N6zyHOAAPYETZPYCNaq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Hotel-transilvania:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Hotel-transilvania {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Hotel-transilvania {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Hotel-transilvania {
+    margin: 5%;
+}
+
+.Explicacion_Hotel-transilvania {
+    margin: auto 20% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION bebe ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION bebe ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION bebe ----- ----- ----- */
+
+.Fondo_bebe {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/7flQrZlHWvkPKx6XVwXv5Qx0vXP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_bebe:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_bebe {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_bebe {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_bebe {
+    margin: 5%;
+}
+
+.Explicacion_bebe {
+    margin: auto 20% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION Sonic ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Sonic ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Sonic ----- ----- ----- */
+
+.Fondo_Sonic {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Sonic:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Sonic {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Sonic {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Sonic {
+    margin: 5%;
+}
+
+.Explicacion_Sonic {
+    margin: auto 20% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* ---- ----- ----- REPRODUCCION Fuego ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Fuego ----- ----- ----- */
+
+
+/* ---- ----- ----- REPRODUCCION Fuego ----- ----- ----- */
+
+.Fondo_Fuego {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(https://www.themoviedb.org/t/p/original/pFwvHAFyPEqtvJEoutPuobLwrNj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Fondo_Fuego:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, #000);
+    opacity: 0.5;
+}
+
+.navbar-light {
+    background-color: #000;
+}
+
+.Contenido_Fuego {
+    position: relative;
+    color: #fff;
+}
+
+.Poster_Fuego {
+    margin: 5%;
+    width: 50%;
+}
+
+.titulo_Fuego {
+    margin: 5%;
+}
+
+.Explicacion_Fuego {
+    margin: auto 20% auto auto;
+}
+
+.Boton_reproducir {
+    color: #fff;
+    text-decoration: none;
+}
