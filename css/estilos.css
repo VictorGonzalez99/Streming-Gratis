@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* ---- ----- ----- body ----- ----- ----- */
 
@@ -565,7 +566,6 @@ body {
 
 /* ---- ----- -----  FOOTERD ----- ----- ----- */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
